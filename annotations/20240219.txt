@@ -1,0 +1,70 @@
+instalar:
+	link: https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/ (3° link de cima para baixo)
+	virtual box > new > nome:"debian" > ecolher local da ISO 
+	TCP IP (Acesso à rede (Placa de rede e cabo), internet (IP), transporte (TCP e UDP), aplicação(HTTP, SMTP, DNS, HTTPS, POP3))
+	
+Se a placa de rede não for Gigabytes, não adiante ter uma internet de 200 mg para cima... (Está pagando internet d egraça), pois
+o computador não tem capacidade de receber tudo isso se não tive gb.
+Não adiante ter placa de rede GB sem o cabo Kat6 (Cabo azul), pois se perde banda!
+
+TCP manda dados, UDP é audio e vídeo!
+
+A porta em que o BD MySQL trabalha é o 3306. Primeira medida de segurança é trocar a porta...
+Varrer portas no brasil não é crime, mas nos EUA é!
+
+Fundamentos web:
+	- Requisições de respostas: O cliente (browser) envia uma requisição HTTP ao servidor (Apache Tomcat e Servidor Python), que então prcessa essa 
+	  requisição e retorna uma resposta
+	- Sem estados: 
+	- Métodos HTTP (PUT, DELETE...)
+	
+As paginas são nomeadas por:
+	- protocolo: https://
+	- host: www.fiap.com.br:
+	- porta: 443/
+	- caminho
+	https://www.fiap.com.br:443/
+	
+O ping é protocolo ICMP
+
+- O usuário digita ao site
+- o navegador pergunta ao DNS (53) qual o IP do site
+- O navegador estabeece uma conexão TCP na porta 80 em IP 
+- O navegador envia um comando GET solicitando o arquivo /pasta
+- O site envia o index.html, o navegador busca todas as imagens e infos necessárias
+
+O que diferencia o http do https é a criptografia
+
+cmd > systeminfo > connection name: Ethernet 2;
+	O wireshark tem Ethernet 2 e 1, onde podemos ver as naegações....
+
+Quando você criptografa seu PC pessoal, não tem problema, pois o HD está criptografado com a criptografia RAS 
+(Para descriptografarem demoraria 100 anos).
+O bitlocker é um método de criptografia do windows, não esqueça a chave...
+
+LGPD obrigado as empresas darem os logs para o orgão publico. Você pode criptografar esses e você não tem obrigação de passar. 
+Você envias os logs criptografados:
+
+Existe uma diferencia entre anonimato e privacidade. 
+	- Privacidae: sabe onde está mas não sabe o que está fazend). No basil não temos privaciade. 
+	- Anonimato: sabem o que estou fazendo mas não sabem o que eu sou
+
+Whats é criptografia ponto a ponto. O whatsapp vê seus audios, imagens e vídeos, mas não vê os textos. 
+Os audios, imagens e videos são hash, não são texto.
+
+https three hand shake: Para a comunicação ser estabelecida entre cliente e servidor:
+	Cli -Ack-----> Servidor
+	Cli <-Syn-Ack- Servidor
+	Cli -Ack-Syn-> Servidor
+
+Cokies tornam o acesso à sites independente às requisições.
+Quando você acessa um site, o windows deixa salvo no HD.
+
+Semana que vem veremos as práticas no GET, POST, PUT, DELETE, HEAD e OPTIONs do lado do servidor
+
+temos 4 versões:
+	https	
+	http1.0 e http1.1 (ataques hackers)
+	Http/2 (compressão do aceçalho)
+	
+	Spftware frances veracrift. ele cria um container e oculta os itens dentro dele. nenhum Cybercomputador consegui quebra-lo até hoje
